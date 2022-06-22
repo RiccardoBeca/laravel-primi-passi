@@ -30,6 +30,13 @@
 
   </ul>
 
+  <nav>
+    <ul>
+      <li><a href="{{route('about')}}">About</a></li>
+      <li><a href="{{route('contact_us')}}">Contact Us</a></li>
+    </ul>
+  </nav>
+
 
 
 </body>

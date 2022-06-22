@@ -23,4 +23,17 @@ Route::get('/', function () {
 
     ];
     return view('home', $data);
-});
+})->name('home');
+
+
+Route::get('/about', function() {
+
+    return view('about');
+
+})->name('about');
+
+Route::get('/contact_us', function() {
+
+    return view('contact_us');
+
+})->name('contact_us');
